@@ -1,0 +1,55 @@
+@extends('layouts.main')
+
+@section('title', 'Consultas - Medic Prontuary')
+
+@section('content')
+<!-- Page header -->
+<div class="page-header d-print-none">
+    <div class="container-xl">
+        <div class="row g-2 align-items-center">
+            <div class="col">
+                <h2 class="page-title">
+                    Atendimento
+                </h2>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Page body -->
+<div class="page-body">
+    <div class="container-xl">
+        <div class="card">
+            <div class="card-body">
+                <div id="table-default" class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Paciente</th>
+                                <th>Data</th>
+                                <th>Hora</th>
+                                <th>Médico</th>
+                                <th>Especialidade</th>
+                                <th>Tipo</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody class="table-tbody">
+                            <tr>
+                                <td class="sort-name">1</td>
+                                <td class="sort-name">Marcio Paranhos</td>
+                                <td class="sort-city">10/09/2024</td>
+                                <td class="sort-type">13:10</td>
+                                <td class="sort-score">Yuri Cardoso</td>
+                                <td class="sort-score">Urologista</td>
+                                <td class="sort-score">Consulta</td>
+                                <td class="sort-score">Em atendimento</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection
