@@ -10,7 +10,10 @@ class AppointmentController extends Controller
     public function index() {
         // Lógica para listar consultas
         // $appointments = Appointment::all();
-        return view('appointments.index');
+        $title = "Consultas";
+        return view('appointments.index', compact([
+            'title'
+        ]));
     }
 
     public function create() {

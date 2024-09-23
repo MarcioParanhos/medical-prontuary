@@ -20843,7 +20843,7 @@ a.badge {
   width: var(--tblr-btn-icon-size);
   height: var(--tblr-btn-icon-size);
   min-width: var(--tblr-btn-icon-size);
-  margin: 0 calc(var(--tblr-btn-padding-x)/ 2) 0 calc(var(--tblr-btn-padding-x)/ -4);
+  /* margin: 0 calc(var(--tblr-btn-padding-x)/ 2) 0 calc(var(--tblr-btn-padding-x)/ -4); */
   vertical-align: bottom;
   color: inherit
 }
